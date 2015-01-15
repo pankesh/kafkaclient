@@ -2,7 +2,6 @@ package org.panksdmz.kafka.client;
 
 import java.util.Date;
 import java.util.Properties;
-import java.util.Random;
 import java.util.concurrent.Callable;
 
 import kafka.javaapi.producer.Producer;

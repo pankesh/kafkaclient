@@ -18,7 +18,8 @@ public class MyKeyGen implements Callable<Integer> {
 		}
 	}
 	
-	public static void main(String[] args) {
+	@SuppressWarnings("unused")
+    public static void main(String[] args) {
 		ExecutorService fixPoolExecutor = Executors.newFixedThreadPool(2);
 		
 		List<MyKeyGen> jobs = new ArrayList<MyKeyGen>();
